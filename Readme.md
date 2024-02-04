@@ -158,7 +158,7 @@ This backend project houses a Spring Boot-based REST API for efficient employee 
 - **Parameters**:
   - `employeeId` (query): ID of the employee.
   - `level` (query): The level of the manager to retrieve.
-- **Example Request**: `http://localhost:8080/api/v1/manager?employeeId=employeeId&level=2`
+- **Example Request**: `http://localhost:8080/api/v1/employees/manager?employeeId=employeeId&level=2`
 
 #### Example Response (Success):
 
